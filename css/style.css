@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #F6F8F9;
 }
 
 ul,
@@ -14,11 +15,43 @@ menu {
     list-style: none;
 }
 
+header{
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
 .logo-img{
     height: 100px;
 }
 
 .main-title{
     display: inline-block;
-    font-size: 50px;
+    font-size: 60px;
+    line-height: 100px;
+    vertical-align: top;
+    
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.nav-button{
+    font-size: 20px;
+    background-color: #FFFFFF;
+    border-radius: 30%;
+    padding: 5px;
+}
+
+#add-task {
+    color: #FFFFFF;
+    background-color: #47ADF1;
+    border-color: #47ADF1;
+}
+
+#add-section {
+    color: #C8CED2;
+    border-color: #C8CED2;
 }
