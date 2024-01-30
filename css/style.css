@@ -105,7 +105,16 @@ header{
     background-color: #B0C926;
 }
 
-.checkbox{
+.checkbox-check{
+    color: green;
+    margin-right: 10px;
+    border: 1px solid green;
     border-radius: 50%;
-    border: 1px solid #444851;
+}
+
+.checkbox-cross{
+    color: red;
+    margin-right: 10px;
+    border: 1px solid red;
+    border-radius: 50%;
 }
