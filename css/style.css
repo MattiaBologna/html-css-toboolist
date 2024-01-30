@@ -68,11 +68,14 @@ header{
     font-weight: bold;
     font-size: 30px;
     padding: 25px 50px;
+    list-style-position: outside;
 }
 
 .task-title {
     font-weight: 500;
     font-size: 25px;
+    margin: 10px;
+    list-style-position: outside;
 }
 
 .task-tag {
@@ -100,4 +103,9 @@ header{
 
 .sales{
     background-color: #B0C926;
+}
+
+.checkbox{
+    border-radius: 50%;
+    border: 1px solid #444851;
 }
