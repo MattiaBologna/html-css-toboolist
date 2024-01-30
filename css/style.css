@@ -32,17 +32,24 @@ header{
     
 }
 
+
 .container {
     max-width: 1024px;
     margin: 0 auto;
     background-color: #FFFFFF;
 }
 
+.navbar{
+    border-bottom: 3px solid #F6F8F9;
+    margin: 0 50px;
+}
+
 .nav-button{
-    font-size: 20px;
+    font-size: 15px;
     background-color: #FFFFFF;
     border-radius: 30%;
-    padding: 5px;
+    padding: 10px;
+    margin: 10px;
 }
 
 #add-task {
@@ -54,4 +61,43 @@ header{
 #add-section {
     color: #C8CED2;
     border-color: #C8CED2;
+}
+
+.task-section {
+    color: #444851;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 25px 50px;
+}
+
+.task-title {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.task-tag {
+    font-size: 15px;
+    border-radius: 30%;
+    padding: 5px;
+    color: #FFFFFF
+}
+
+.editorial {
+    background-color: #45ABEA;
+}
+
+.q1goals{
+    background-color: #9C72E4;
+}
+
+.recruiting{
+    background-color: #64C0A9;
+}
+
+.website{
+    background-color: #D863A1;
+}
+
+.sales{
+    background-color: #B0C926;
 }
