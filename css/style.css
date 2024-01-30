@@ -13,6 +13,7 @@ ul,
 ol,
 menu {
     list-style: none;
+    padding: 0px 25px;
 }
 
 header{
@@ -41,7 +42,7 @@ header{
 
 .navbar{
     border-bottom: 3px solid #F6F8F9;
-    margin: 0 50px;
+    padding: 0 50px;
 }
 
 .nav-button{
@@ -67,7 +68,7 @@ header{
     color: #444851;
     font-weight: bold;
     font-size: 30px;
-    padding: 25px 50px;
+    padding: 25px 0;
     list-style-position: outside;
 }
 
